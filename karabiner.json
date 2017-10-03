@@ -1,0 +1,894 @@
+{
+    "global": {
+        "check_for_updates_on_startup": true,
+        "show_in_menu_bar": true,
+        "show_profile_name_in_menu_bar": false
+    },
+    "profiles": [
+        {
+
+            "complex_modifications": {
+                "parameters": {
+                    "basic.to_if_alone_timeout_milliseconds": 1000
+                },
+                "rules": [
+
+
+                ]
+            },
+
+            "complex_modifications": {
+                "rules": [
+
+                    {
+                        "description": "tab to w",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "w"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "tab plus option_l to F9",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f9"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "tab plus command_l to command+w",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "tab plus command_r to !",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "1",
+                                        "modifiers": "left_shift"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+
+                    },
+
+                    {
+                        "description": "tab plus shift_l to W",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "description": "q to e",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "q plus option_l to F10",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f10"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "q plus command_l to command+e",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "q plus command_r to \"",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "2",
+                                        "modifiers": "left_shift"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+
+                    },
+
+                    {
+                        "description": "q plus shift_l to E",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "description": "caps_lock to left (vimkeys)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {"mandatory": ["left_option", "left_control", "left_command", "left_shift"]}
+
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "a"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "a to down (vimkeys)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {"mandatory": ["left_option", "left_control", "left_command", "left_shift"]}
+
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "down_arrow"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "s"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "s to up (vimkeys)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {"mandatory": ["left_option", "left_control", "left_command", "left_shift"]}
+
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "up_arrow"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "d"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "d to right (vimkeys)",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {"mandatory": ["left_option", "left_control", "left_command", "left_shift"]}
+
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "f"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "CAPS_LOCK to a",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "CAPS_LOCK plus option_l to F5",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f5"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "CAPS_LOCK plus command_r to comma",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "comma"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+
+                    {
+                        "description": "CAPS_LOCK plus shift_l to A",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "a plus option_l to F6",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f6"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "a plus command_l to command+s",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "a plus command_r to dot",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+
+                    },
+
+                    {
+                        "description": "a plus shift_l to S",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "s",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "description": "s plus shift_l to D",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": "left_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+{
+                        "description": "A held down to control",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "a"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_control"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "s"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+},
+                    {
+                        "description": "s held down to left_command",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_command"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "d"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "d held down to left_shift",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "f"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "d plus option_l to F7",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f7"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "d plus command_r to colon",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "period",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "d plus option_l to F8",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f8"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "f plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": "left_shift"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "f plus left_shift to Z",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {"mandatory": "left_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": "left_shift"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "f plus left_option to ?",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen",
+                                        "modifiers": "left_shift"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_5 held down to right control",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_control"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "j"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_6 held down to left_command",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_command"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "k"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "manipulators": [
+
+
+                            {
+                                "description": "Change space to option_l.",
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_option",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": {
+                                            "optional": [
+                                                "any"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "manipulators": [
+
+                            {
+                                "description": "Change right_arrow to right_command.",
+                                "from": {
+                                    "key_code": "right_arrow"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_command"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "manipulators": [
+
+                            {
+                                "description": "Change keypad_plus to command+option+control+shift.",
+                                "from": {
+                                    "key_code": "keypad_plus"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control",
+                                            "left_option"
+                                        ]
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "l"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "manipulators": [
+
+                            {
+                                "description": "Change down to command+control+shift.",
+                                "from": {
+                                    "key_code": "down_arrow"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control"
+                                        ]
+                                    }
+                                ],
+
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "tab"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 610,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 597,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false
+                }
+            ],
+            "fn_function_keys": {
+                "f1": "f1",
+                "f10": "f10",
+                "f11": "f11",
+                "f12": "f12",
+                "f2": "f2",
+                "f3": "f3",
+                "f4": "f4",
+                "f5": "f5",
+                "f6": "f6",
+                "f7": "f7",
+                "f8": "f8",
+                "f9": "f9"
+            },
+            "name": "Default profile",
+            "one_to_many_mappings": {},
+            "selected": true,
+            "simple_modifications": {},
+            "standalone_keys": {},
+            "virtual_hid_keyboard": {
+                "caps_lock_delay_milliseconds": 0,
+                "keyboard_type": "ansi",
+                "standalone_keys_delay_milliseconds": 200
+            }
+        }
+    ]
+}
