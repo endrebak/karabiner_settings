@@ -1251,7 +1251,7 @@
 
 
                     {
-                        "description": "keypad_5 held down to right control",
+                        "description": "keypad_5 held down to left control",
                         "manipulators": [
                             {
                                 "from": {
@@ -1259,7 +1259,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_control"
+                                        "key_code": "left_control"
                                     }
                                 ],
                                 "to_if_alone": [
@@ -1996,9 +1996,8 @@
                             }
                         ]
                     },
-
                     {
-                        "description": "keypad_4 to h",
+                        "description": "keypad_4 held down to right shift",
                         "manipulators": [
                             {
                                 "from": {
@@ -2006,15 +2005,20 @@
                                 },
                                 "to": [
                                     {
+                                        "key_code": "right_shift"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
                                         "key_code": "h"
                                     }
                                 ],
                                 "type": "basic"
                             }
-
                         ]
                     },
-                    {
+
+                   {
                         "description": "keypad_4 plus option_l to hat",
                         "manipulators": [
                             {
@@ -2409,7 +2413,6 @@
                             }
                         ]
                     },
-
 
                     {
                         "description": "keypad_7 to u",
@@ -2878,6 +2881,45 @@
                     },
 
                     {
+                        "description": "keypad_equals to backspace",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_equal_sign"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+                    {
+                        "description": "keypad_equals plus command_r to ~",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_equal_sign",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "close_bracket",
+                                        "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
                         "manipulators": [
 
 
@@ -2935,6 +2977,8 @@
                         ]
                     },
 
+
+
                     {
                         "manipulators": [
                             {
@@ -2989,6 +3033,7 @@
                             }
                         ]
                     },
+
 
                     {
                         "description": "Open chrome",
