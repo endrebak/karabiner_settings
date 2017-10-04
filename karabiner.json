@@ -1187,6 +1187,27 @@
                     },
 
                     {
+                        "description": "z plus left_control to cntrl-c",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+                    {
                         "description": "z plus command_r to *",
                         "manipulators": [
                             {
@@ -1209,7 +1230,7 @@
                     },
 
                     {
-                        "description": "z plus right_shift to C",
+                        "description ": "z plus right_shift to C",
                         "manipulators": [
                             {
                                 "from": {
@@ -1453,6 +1474,28 @@
 
                     },
 
+
+                    {
+                        "description": "c plus left_control to cntrl-b",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "b",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
                     {
                         "Description": "c plus right_shift to B",
                         "manipulators": [
@@ -1470,6 +1513,1367 @@
                                 "type": "basic"
                             }
 
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_1 to n",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "n"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_1 plus option_l to 1",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "1"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_1 plus command_l to command+n",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_1 plus command_r to ]",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": "left_option"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_1 plus left_control to cntrl-n",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+                    {
+                        "Description": "keypad_1 plus right_shift to N",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_1",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_2 to m",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "m"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_2 plus option_l to 2",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "2"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_2 plus command_l to command+m",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "m",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_2 plus command_r to ]",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": "left_option"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_2 plus left_control to cntrl-m",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "m",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_2 plus right_shift to M",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_2",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+
+                                "to": [
+                                    {
+                                        "key_code": "m",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_3 to y",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "y"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_3 plus option_l to 3",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "3"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_3 plus command_l to command+y",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_3 plus command_r to <",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_3 plus left_control to cntrl-y",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_3 plus right_shift to Y",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_3",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+
+                                "to": [
+                                    {
+                                        "key_code": "y",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_enter to p",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_enter plus option_l to -",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "slash"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_enter plus command_l to command+p",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_enter plus command_r to -",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "grave_accent_and_tilde",
+                                        "modifiers": "left_shift"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_enter plus left_control to cntrl-p",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_enter plus right_shift to P",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_enter",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "p",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_4 to h",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_4 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_4 plus command_l to command+h",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_4 plus command_r to (",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": "left_shift"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_4 plus left_control to cntrl-h",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_4 plus right_shift to H",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_4",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "h",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_5 to j",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_5 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "5"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_5 plus command_l to command+j",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_5 plus command_r to (",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": "left_shift"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_5 plus left_control to cntrl-j",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_5 plus right_shift to J",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_5",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "j",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_6 to k",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_6 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_6 plus command_l to command+k",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_6 plus command_r to {",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8",
+                                        "modifiers": ["left_shift", "left_option"]
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_6 plus left_control to cntrl-k",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_6 plus right_shift to K",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "k",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "Description": "keypad_plus plus right_shift to K",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_plus",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "l",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "Description": "keypad_plus plus right_command to }",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_plus",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9",
+                                        "modifiers": ["right_shift", "left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "Description": "keypad_plus plus left_option to enter",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_plus",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "return_or_enter"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "keypad_7 to u",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_7 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_7 plus command_l to command+u",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_7 plus command_r to #",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "3",
+                                        "modifiers": ["left_shift"]
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "description": "keypad_7 plus left_control to cntrl-u",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_7 plus right_shift to U",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "u",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "keypad_8 to i",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_8 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "8"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_8 plus command_l to command+i",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_8 plus command_r to $",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": ["left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_8 plus left_control to cntrl-i",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+                    {
+                        "Description": "keypad_8 plus right_shift to I",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_8",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "i",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "keypad_9 to o",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_9 plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "9"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_9 plus command_l to command+o",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_9 plus command_r to $",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "5",
+                                        "modifiers": ["left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_9 plus left_control to cntrl-o",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_9 plus right_shift to O",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "o",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "keypad_hyphen to x",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_hyphen plus option_l to hat",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen",
+                                    "modifiers": {"mandatory": "left_option"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "hyphen"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_hyphen plus command_l to command+x",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "keypad_hyphen plus command_r to %",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "6",
+                                        "modifiers": ["left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+
+                    {
+                        "description": "keypad_hyphen plus left_control to cntrl-x",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": "left_control"
+                                    }
+
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "Description": "keypad_hyphen plus right_shift to X",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_hyphen",
+                                    "modifiers": {"mandatory": "right_shift"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "x",
+                                        "modifiers": "right_shift"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
                         ]
                     },
 
@@ -1533,7 +2937,6 @@
 
                     {
                         "manipulators": [
-
                             {
                                 "description": "Change keypad_plus to command+option+control+shift.",
                                 "from": {
