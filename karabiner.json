@@ -57,6 +57,26 @@
                     },
 
                     {
+                        "description": "tab plus control_l to cntrl-w",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "w",
+                                        "modifiers": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
                         "description": "tab plus command_l to command+w",
                         "manipulators": [
                             {
@@ -2953,7 +2973,6 @@
                             }
                         ]
                     },
-
                     {
                         "manipulators": [
 
@@ -3082,6 +3101,28 @@
 
                     {
                         "description": "Open emacs",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_6",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift", "left_command", "left_control", "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open /Applications/Emacs.app"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "Open em",
                         "manipulators": [
                             {
                                 "from": {
