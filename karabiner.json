@@ -21,6 +21,89 @@
                 "rules": [
 
                     {
+                        "description": "hyper+e to option-right",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "e",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift", "left_command", "left_control", "left_option"
+                                        ]}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": "right_option"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "hyper+tab to option-left",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift", "left_command", "left_control", "left_option"
+                                        ]}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": "right_option"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+                    {
+                        "description": "down to tab",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "down_arrow"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                     {
+                         "description": "command plus down to cmd-tab",
+                         "manipulators": [
+                             {
+                                 "from": {
+                                     "key_code": "down_arrow",
+                                     "modifiers": {"mandatory": "left_command"}
+                                 },
+                                 "to": [
+                                     {
+                                         "key_code": "tab",
+                                         "modifiers": "left_command"
+
+                                     }
+                                 ],
+                                 "type": "basic"
+                             }
+
+                         ]
+                     },
+
+                    {
                         "description": "tab to w",
                         "manipulators": [
                             {
@@ -276,6 +359,25 @@
                         ]
                     },
 
+                    {
+                        "description": "w plus control_l to control+r",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "r",
+                                        "modifiers": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
                     {
                         "description": "w plus command_l to command+r",
                         "manipulators": [
@@ -1353,6 +1455,25 @@
                         ]
                     },
 
+                    {
+                        "description": "x plus control_l to control+v",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "v",
+                                        "modifiers": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
                     {
                         "description": "x plus command_l to command+v",
                         "manipulators": [
@@ -2909,7 +3030,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "delete_or_backspace"
+                                        "key_code": "backslash"
                                     }
                                 ],
                                 "type": "basic"
@@ -2930,6 +3051,25 @@
                                     {
                                         "key_code": "close_bracket",
                                         "modifiers": ["left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
+
+                    {
+                        "description": "keypad_slash to @",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_slash"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "delete_or_backspace"
                                     }
                                 ],
                                 "type": "basic"
@@ -3025,33 +3165,6 @@
                         ]
                     },
 
-                    {
-                        "manipulators": [
-
-                            {
-                                "description": "Change down to command+control+shift.",
-                                "from": {
-                                    "key_code": "down_arrow"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_shift",
-                                        "modifiers": [
-                                            "left_command",
-                                            "left_control"
-                                        ]
-                                    }
-                                ],
-
-                                "to_if_alone": [
-                                    {
-                                        "key_code": "tab"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
 
 
                     {
@@ -3122,11 +3235,11 @@
                     },
 
                     {
-                        "description": "Open em",
+                        "description": "Open dash",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "keypad_6",
+                                    "key_code": "keypad_1",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_shift", "left_command", "left_control", "left_option"
@@ -3135,13 +3248,36 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open /Applications/Emacs.app"
+                                        "shell_command": "open /Applications/Dash.app"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "Open ",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_7",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift", "left_command", "left_control", "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open /Applications/Slack.app"
                                     }
                                 ],
                                 "type": "basic"
                             }
                         ]
                     }
+
                 ]
             },
             "devices": [
