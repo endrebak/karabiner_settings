@@ -260,6 +260,25 @@
                     },
 
                     {
+                        "description": "q plus control_l to control+e",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "e",
+                                        "modifiers": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
                         "description": "q plus command_l to command+e",
                         "manipulators": [
                             {
@@ -639,7 +658,16 @@
                                 "from": {
                                     "key_code": "caps_lock"
                                 },
-                                "to": [
+
+                                "to": [{
+                                        "key_code": "left_shift",
+                                        "modifiers": [
+                                            "left_command",
+                                            "left_control"
+                                        ]
+                                }],
+
+                                "to_if_alone": [
                                     {
                                         "key_code": "a"
                                     }
@@ -688,6 +716,28 @@
                         ]
                     },
 
+
+
+
+                    {
+                        "description": "CAPS_LOCK plus control to cntrl-a",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "caps_lock",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "a",
+                                        "modifiers": "left_control"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
 
 
                     {
@@ -832,6 +882,26 @@
                             }
                         ]
                     },
+
+                    {
+                        "description": "s plus command_l to command-D",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
                     {
                         "description": "s plus shift_l to D",
                         "manipulators": [
@@ -867,6 +937,26 @@
                                 "to_if_alone": [
                                     {
                                         "key_code": "d"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+
+                    {
+                        "description": "s held down to left_command",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "d",
+                                        "modifiers": "left_control"
                                     }
                                 ],
                                 "type": "basic"
@@ -934,6 +1024,25 @@
                         ]
                     },
 
+                    {
+                        "description": "d plus command_l to colon",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f",
+                                        "modifiers": "left_command"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
 
                     {
                         "description": "d plus right_shift to F",
@@ -987,6 +1096,48 @@
                                     {
                                         "key_code": "close_bracket",
                                         "modifiers": "right_shift"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+
+
+                    {
+                        "description": "f plus control_l to cmd_z",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {"mandatory": "left_control"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": "left_control"
+
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+                    },
+                    {
+                        "description": "f plus command_l to cmd_z",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {"mandatory": "left_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "z",
+                                        "modifiers": "left_command"
 
                                     }
                                 ],
@@ -3039,13 +3190,14 @@
                         ]
 
                     },
+
                     {
-                        "description": "keypad_equals plus command_r to ~",
+                        "description": "keypad_equals plus left_option to ~",
                         "manipulators": [
                             {
                                 "from": {
                                     "key_code": "keypad_equal_sign",
-                                    "modifiers": {"mandatory": "right_command"}
+                                    "modifiers": {"mandatory": "left_option"}
                                 },
                                 "to": [
                                     {
@@ -3271,6 +3423,28 @@
                                 "to": [
                                     {
                                         "shell_command": "open /Applications/Slack.app"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+
+                    {
+                        "description": "Open preview",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_9",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_shift", "left_command", "left_control", "left_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open /Applications/Preview.app"
                                     }
                                 ],
                                 "type": "basic"
