@@ -3186,6 +3186,26 @@
                         ]
 
                     },
+                    {
+                        "description": "keypad_equals and right_shift and right_option to backspace",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "keypad_equal_sign",
+                                    "modifiers": {"mandatory": "right_command"}
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "7",
+                                        "modifiers": ["right_shift", "left_option"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+
+                        ]
+
+                    },
 
                     {
                         "description": "keypad_equals plus left_option to ~",
