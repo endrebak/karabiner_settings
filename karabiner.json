@@ -94,6 +94,26 @@
                          ]
                      },
 
+                     {
+                         "description": "shift plus down to shift-tab",
+                         "manipulators": [
+                             {
+                                 "from": {
+                                     "key_code": "down_arrow",
+                                     "modifiers": {"mandatory": "right_shift"}
+                                 },
+                                 "to": [
+                                     {
+                                         "key_code": "tab",
+                                         "modifiers": "right_shift"
+
+                                     }
+                                 ],
+                                 "type": "basic"
+                             }
+
+                         ]
+                     },
                     {
                         "description": "tab to w",
                         "manipulators": [
