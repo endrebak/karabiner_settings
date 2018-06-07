@@ -3335,7 +3335,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "keypad_4",
+                                    "key_code": "keypad_7",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_shift", "left_command", "left_control", "left_option"
@@ -3358,7 +3358,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "keypad_5",
+                                    "key_code": "keypad_8",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_shift", "left_command", "left_control", "left_option"
@@ -3380,7 +3380,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "keypad_6",
+                                    "key_code": "keypad_9",
                                     "modifiers": {
                                         "mandatory": [
                                             "right_shift", "left_command", "left_control", "left_option"
