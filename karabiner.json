@@ -1245,7 +1245,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "equal_sign"
+                                        "key_code": "equal_sign",
+                                        "modifiers": "left_shift"
                                     }
 
                                 ],
